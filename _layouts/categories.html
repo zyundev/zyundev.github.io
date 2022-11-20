@@ -44,7 +44,7 @@ layout: page
         {% assign top_posts_size = site.categories[category_name] | size %}
         <span class="text-muted small font-weight-light">
           {% if sub_categories_size > 0 %}
-            {{ sub_categories_size }}
+            {{ sub_categories_size }} categories
             {% if sub_categories_size > 1 %}
               {{ site.data.locales[site.lang].categories.category_measure.plural
                 | default: site.data.locales[site.lang].categories.category_measure }}
@@ -54,7 +54,7 @@ layout: page
             {% endif %},
           {% endif %}
 
-          {{ top_posts_size }}
+          {{ top_posts_size }} posts
 
           {% if top_posts_size > 1 %}
             {{ site.data.locales[site.lang].categories.post_measure.plural
@@ -94,7 +94,7 @@ layout: page
 
           {% assign posts_size = site.categories[sub_category] | size %}
           <span class="text-muted small font-weight-light">
-            {{ posts_size }}
+            {{ posts_size }} posts
 
             {% if posts_size > 1 %}
               {{ site.data.locales[site.lang].categories.post_measure.plural
