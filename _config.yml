@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: 개발일상                          # the main title
 
-tagline: 개발기록서   # it will display as the sub-title
+tagline: 개발 및 일상기록서   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
