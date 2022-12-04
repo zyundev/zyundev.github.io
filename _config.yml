@@ -19,12 +19,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 개발일상                          # the main title
+title: zyundev's 블로그                          # the main title
 
-tagline: 개발 및 일상기록서   # it will display as the sub-title
+tagline: 초보개발차의 회고록   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  개발, 독서, 일상 정리서
 
 # fill in the protocol & hostname for your site, e.g., 'https://zyundev.github.io'
 url: 'https://zyundev.github.io'
